@@ -169,6 +169,7 @@ _EMBEDDING_MODELS = {
     "InternLM2ForRewardModel": ("internlm2", "InternLM2ForRewardModel"),
     "JambaForSequenceClassification": ("jamba", "JambaForSequenceClassification"),  # noqa: E501
     "LlamaModel": ("llama", "LlamaForCausalLM"),
+    "UTUModel": ("youtu_embedding", "UTUForCausalLM"),
     **{
         # Multiple models share the same architecture, so we include them all
         k: (mod, arch) for k, (mod, arch) in _TEXT_GENERATION_MODELS.items()
